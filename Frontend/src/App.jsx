@@ -10,7 +10,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/onboarding" element={<Onboarding />} /> 
-        <Route path="/onboarding" element={<AuthForm />} /> {}
+        <Route path="/authform" element={<AuthForm />} /> {}
       </Routes>
     </Router>
   );
